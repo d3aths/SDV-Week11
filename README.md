@@ -35,10 +35,15 @@ A stack is the data structure that works with recursion, it operates with Last I
 
 There is quite a few real world examples of recursion. A simple one would be looking at russian dolls.
 
-`function openDoll(doll)`  
-`{`  
+`function openDoll(doll) {`  
 `if (doll(isEmpty())`  
-`return doll`  
-`}`  
+`return doll }`  
 `openDoll(doll.open)`  
-If the dolls are empty, stop, if not, keep opening. Another simple one without code is cutting up meat to fit in a dish. If the meat fits, stop, if there is still more room, keep cutting.
+If the dolls are empty, stop, if not, keep opening. Another simple one without code is cutting up meat to fit in a dish. If the meat fits, stop, if there is still more room, keep cutting. We practice recursion in real life all the time when we do things until theyre done.
+
+`function completeClasswork(work) {`  
+`if (work(complete())`  
+`console.log("well done") }`  
+`else {`  
+`console.log("keep going") }`  
+`completeClasswork(work.work)`
