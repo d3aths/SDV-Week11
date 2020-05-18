@@ -21,3 +21,23 @@ Head | Node | Tail
 
 
 ## Recursion
+Recursion is a function that calls on itself until asked to stop. For example some use cases would be searching for something until you find it. If you find it, stop, if you don't, keep going (using the recursive code) until you do.
+Advantages to using recursive code is that it can sometimes be simpler and less cluttery than writing a loop function or whatever other solution you have. It is also better at following a tree structure, ie folders then subfolders, like traversing down a family tree until it finds the entry it's looking for.  
+The disadvantages are that it can actually sometimes be slower and use more memory than a regular code, depending on how complicated your data is that you use recursion for.
+
+![Recursion](https://miro.medium.com/max/1400/1*dXFC8vq6xJ8Ud1Zeu24eUQ.png)  
+*An image comparing complexity of loops vs recursion, from freecodecamp*
+
+A stack is the data structure that works with recursion, it operates with Last In, First Out. Recursion stores all the varibles it has gone over in the stack as it works, and then goes back over them to solve the problem. Below is a diagram of how this works
+
+![Recursion stack](https://helloacm.com/wp-content/uploads/2018/05/first-in-last-out-stack.jpg)  
+*Recurison stack from helloacm.com*
+
+There is quite a few real world examples of recursion. A simple one would be looking at russian dolls.
+`function openDoll(doll)`  
+`{`  
+`if (doll(isEmpty())`  
+`return doll`  
+`}`  
+`openDoll(doll.open)`  
+If the dolls are empty, stop, if not, keep opening. Another simple one without code is cutting up meat to fit in a dish. If the meat fits, stop, if there is still more room, keep cutting.
