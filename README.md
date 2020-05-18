@@ -38,7 +38,8 @@ There is quite a few real world examples of recursion. A simple one would be loo
 `function openDoll(doll) {`  
 `if (doll(isEmpty())`  
 `return doll }`  
-`openDoll(doll.open)`  
+`openDoll(doll.open)`
+
 If the dolls are empty, stop, if not, keep opening. Another simple one without code is cutting up meat to fit in a dish. If the meat fits, stop, if there is still more room, keep cutting. We practice recursion in real life all the time when we do things until theyre done.
 
 `function completeClasswork(work) {`  
