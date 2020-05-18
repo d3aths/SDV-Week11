@@ -11,10 +11,9 @@ Cases where using a linked list would be valuable would be in game development, 
 
 
 `const otherlist = new LinkedList();
-otherlist.addToHead(100);
-otherlist.addToHead(200);
-otherlist.addToHead(300);
-console.log(otherlist);`
+  otherlist.addToHead(100);
+  otherlist.addToHead(200);
+  console.log(otherlist);`
 
 This is a piece of code taken from hackernoon.com's article on linked lists, showing how you add information to your list. That code will put the first line you entered down at the *tail* of the list, since it's value is going in first, it gets shoved to the end. So the list will end up like this, which seems somewhat backwards to me. Alternatively you can use the same code but addToTail (of course you need the function first before both of these will work) for a code that will add your first line to the head, then work its way left to right with the rest of the input.
 Head | Node | Tail
