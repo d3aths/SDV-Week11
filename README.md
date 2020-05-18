@@ -34,6 +34,7 @@ A stack is the data structure that works with recursion, it operates with Last I
 *Recurison stack from helloacm.com*
 
 There is quite a few real world examples of recursion. A simple one would be looking at russian dolls.
+
 `function openDoll(doll)`  
 `{`  
 `if (doll(isEmpty())`  
