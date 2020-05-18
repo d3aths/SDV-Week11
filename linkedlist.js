@@ -70,3 +70,6 @@ LinkedList.prototype.search = function(searchValue)
   //code for searching the list for a value
 
 console.log(newlist.search(3))
+
+
+//code examples from hackernoon
