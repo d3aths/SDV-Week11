@@ -48,3 +48,11 @@ If the dolls are empty, stop, if not, keep opening. Another simple one without c
 `else {`  
 `console.log("keep going") }`  
 `completeClasswork(work.work)`
+
+### References
+Recursion tutorial  
+https://helloacm.com/tutorial-recursion-and-stack/  
+More recursion explanations  
+https://dev.to/sloan/explain-recursion-like-im-five-5c6
+Linked List explanations and code setup  
+https://hackernoon.com/the-little-guide-of-linked-list-in-javascript-9daf89b63b54
